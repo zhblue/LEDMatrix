@@ -1,0 +1,10 @@
+while [ 1 ]
+do
+   /home/pi/LED/heart
+   /home/pi/LED/disp
+   /home/pi/LED/rain
+   /home/pi/LED/clound
+   /home/pi/LED/sun
+   /home/pi/LED/smile
+
+done
