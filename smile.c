@@ -59,7 +59,14 @@ int main(){
   wiringPiSPISetup(0,500000);
   //print();
   while(count--){
-  	// print();
+  	 if((count/10)%2){  //blink eyes
+                screen[2][2]=0;
+                screen[2][5]=0;
+         }else{
+                screen[2][2]=1;
+                screen[2][5]=1;
+         }
+
 	 display();
   }
   return 0;
