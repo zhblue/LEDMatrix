@@ -23,3 +23,6 @@ add
 ```
 to /etc/rc.local , will run all demos on boot.
 
+Pictures found at 
+树莓派LED阵列 - 张浩斌的文章 - 知乎
+https://zhuanlan.zhihu.com/p/50784515
