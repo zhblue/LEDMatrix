@@ -23,7 +23,7 @@ int move2(){
 	for(int i=0;i<8;i++){
 	  tmp[i]=screen[i][0];
 	}
-	for(int i=0;i<8;i++){
+	for(int i=0;i<7;i++){
 		for(int j=0;j<8;j++){
 			screen[j][i]=screen[j][i+1];	
 		}
